@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         new AlertDialog.Builder(this)
                 .setTitle(passStatus)
-                .setMessage("Your Score id "+score+"Out of "+totalQuestion)
+                .setMessage("Your Score is " +score+ "Out of " +totalQuestion)
                 .setPositiveButton("Restart", ((dialog, i) ->restartQuiz() ))
                 .setCancelable(false)
                 .show();
